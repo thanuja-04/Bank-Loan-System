@@ -1,5 +1,5 @@
 // db.js
-const sqlite3 = require('sqlite3').verbose();
+const sqlite3 = require('sqlite3/lib/sqlite3').verbose();
 const path = require('path');
 
 // Correct way: resolves correctly in any environment

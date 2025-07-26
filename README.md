@@ -70,22 +70,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 Bank Lending System/
-bank-system-backend/
-├── db.js
-├── server.js
-├── routes/
-│   └── bankRoutes.js
-├── controllers/
-│   └── bankController.js
-bank-loan-frontend/
-└── src/
-    ├── App.css
-    ├── App.js
-    ├── index.css
-    ├── index.js
-    └── components/
-        ├── Dashboard.js
-        ├── LendLoan.js
-        ├── MakePayment.js
-        ├── Ledger.js
-        └── Overview.js
+|__ bank-system-backend/
+|    ├── db.js
+|    ├── server.js
+|    |__bank.db
+|    ├── routes/
+|    │   └── bankRoutes.js
+|    ├── controllers/
+|    │   └── bankController.js
+|__node_modules
+|__package-lock.json
+|__package.json
+|__bank-loan-frontend/
+|    └── src/
+|    |   ├── App.css
+|    |   ├── App.js
+|    |   ├── index.css
+|    |   ├── index.js
+|    |   └── components/
+     |    ├── Dashboard.js
+     |      ├── LendLoan.js
+     |      ├── MakePayment.js
+     |      ├── Ledger.js
+     |      └── Overview.js
+     |__.gitignore
+     |__package-lock.json
+     |__package.json
