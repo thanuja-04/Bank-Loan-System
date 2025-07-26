@@ -19,7 +19,7 @@ function MakePayment() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/payment', form);
+      const res = await axios.post('https://bank-system-backend-3esp.onrender.com/api/payment', form);
       setResponse(res.data);
       alert('✅ Payment Successful!');
     } catch (error) {
