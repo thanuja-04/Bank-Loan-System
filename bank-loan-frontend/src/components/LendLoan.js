@@ -20,7 +20,7 @@ function LendLoan() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/lend', form);
+      const res = await axios.post('https://bank-system-backend-3esp.onrender.com/api/lend', form);
       setResponse(res.data);
       alert("Loan granted successfully.")
     } catch (error) {
