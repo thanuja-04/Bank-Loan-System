@@ -10,7 +10,7 @@ A simple full-stack web application to manage lending operations such as loan cr
 
 ## 🚀 Live URLs
 
-- **Frontend (Netlify)** 👉 [https://your-frontend-link.netlify.app](https://your-frontend-link.netlify.app))
+- **Frontend (Netlify)** 👉 [https://bank-lending-system.netlify.app](https://bank-lending-system.netlify.app)
 - **Backend (Render)** 👉 [https://bank-system-backend-3esp.onrender.com](https://bank-system-backend-3esp.onrender.com)
 
 ---
