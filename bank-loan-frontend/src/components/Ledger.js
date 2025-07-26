@@ -8,7 +8,7 @@ function Ledger() {
 
   const fetchLedger = async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/ledger/${loanId}`);
+      const res = await axios.get(`https://bank-system-backend-3esp.onrender.com/api/ledger/${loanId}`);
       setLedger(res.data);
     } catch (err) {
       alert('Error fetching ledger');
