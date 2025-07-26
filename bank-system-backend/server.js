@@ -9,7 +9,7 @@ app.use(cors());  // <-- and this line
 app.use(bodyParser.json());
 app.use('/api', routes);
 
-const PORT = 5000;
+const PORT = process.env.port || 5000;
 app.listen(PORT, () => {
   console.log(`Bank loan system server running on http://localhost:${PORT}`);
 });
