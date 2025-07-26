@@ -5,7 +5,10 @@ const bodyParser = require('body-parser');
 const app = express();
 const routes = require('./routes/bankRoutes');
 
-app.use(cors());  // <-- and this line
+app.use(cors({
+  origin: "*", // or specifically your Netlify domain if needed
+  methods: ["GET", "POST", "PUT", "DELETE"]
+}));   // <-- and this line
 app.use(bodyParser.json());
 app.use('/api', routes);
 
