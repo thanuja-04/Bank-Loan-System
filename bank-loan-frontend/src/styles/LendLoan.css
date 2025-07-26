@@ -1,0 +1,52 @@
+/* LendLoan.css */
+.lend-loan-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.lend-loan-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.lend-loan-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lend-loan-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.lend-loan-container button {
+  padding: 12px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.lend-loan-container button:hover {
+  background-color: #27ae60;
+}
+
+.loan-response {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ecf0f1;
+  border-left: 5px solid #2ecc71;
+  border-radius: 6px;
+}
