@@ -1,6 +1,10 @@
 // db.js
 const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database('bank.db');
+const path = require('path');
+
+// Correct way: resolves correctly in any environment
+const dbPath = path.join(__dirname, 'bank.db');
+const db = new sqlite3.Database(dbPath);
 
 // Create tables if not exist
 db.serialize(() => {
