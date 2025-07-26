@@ -8,7 +8,7 @@ function Overview() {
 
   const fetchOverview = async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/overview/${customerId}`);
+      const res = await axios.get(`https://bank-system-backend-3esp.onrender.com/api/overview/${customerId}`);
       setLoans(res.data);
     } catch (err) {
       alert('Failed to fetch overview');
